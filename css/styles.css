@@ -1,0 +1,138 @@
+body {
+	margin:0;
+	padding:25px 0px 0px 0px;
+	width:60000px;
+	background-color: white;
+	color: #333;
+	font-style: normal;
+	line-height: 17px;
+	font-family: malgun gothic;
+	font-size: 12px;
+}
+
+img {
+    border: 1px solid #5A5A5A; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -moz-box-shadow: -5px 3px 20px -7px #D91A1A; 
+    -webkit-box-shadow: -5px 3px 20px -7px #D91A1A; 
+    box-shadow: -5px 3px 20px -7px #5A5A5A;    
+}
+#nav {
+	height: 3758px;
+	width:170px;
+	position: absolute;
+	padding: 0px 50px 0px 0px;
+	z-index:1;
+	line-height: 17px;
+	top: 25px;
+	left: 25px;
+	font-family: malgun gothic;
+	font-size: 16px;
+	font-style: normal;
+	color: #333;
+	
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-family: malgun;
+}
+
+#nav ul li {
+    min-height: 25px;
+}
+
+#nav ul li:hover {
+    background-color: #8915AD;
+    color: white;
+}
+
+
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+	position: relative;
+	padding: 0 40px 0 0;
+	top: 20px;
+	left: 50px;
+	font-family: malgun gothic;
+}
+
+.project {
+	margin: 0px;
+	padding: 0px 1000px 0 200px;
+	float: left;
+}
+
+.link {
+	margin: 0px;
+	padding: 0px 1000px 0 260px;
+	float: left;
+        font-size: 20px;
+}
+
+.link a:hover {
+    background-color: white;
+    text-decoration: none;
+    color: #51731F;
+}
+
+#start {
+	padding-right: 90px;	
+}
+
+.project .title {
+	border-bottom: 1px solid;
+	font-family: malgun gothic;
+}
+
+.project ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+.project li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 4px;
+}
+
+.project ul.stacked {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.project li.stacked {
+	display: block;
+}
+
+.project img.vector {
+	border: 1px #ccc solid;
+}
+
+
+
+@media screen
+  {
+  body>div#page>div#nav
+    {
+    position: fixed;
+    }
+  }
+  
